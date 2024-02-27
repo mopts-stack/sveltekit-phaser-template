@@ -1,5 +1,13 @@
 # create-svelte
 
+modified version of: [setltzerfish template](https://github.com/seltzerfish/phaser-svelte-template)
+
+## changes
+
+- updated phaser and sveltekit versions
+- some folder structure tweaks
+- removed any styles to let developer decide what's best for them
+
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Creating a project
