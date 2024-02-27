@@ -22,9 +22,3 @@
 </div>
 
 <Hud />
-
-<style>
-	canvas {
-		width: 100%;
-	}
-</style>
