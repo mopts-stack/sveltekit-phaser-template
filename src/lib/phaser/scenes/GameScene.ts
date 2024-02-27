@@ -29,14 +29,6 @@ export default class GameScene extends Phaser.Scene {
     }
 
     private spawnLogo() {
-        // const logo = this.matter.add
-        //     .image(100, 100, 'logo') // just using my favicon here
-        //     .setScale(0.25)
-        //     .setRectangle(16, 16)
-        //     .setBounce(0.5)
-        //     .setVelocity(10, 0)
-        //     .setScale(2);
-
         const scale = 0.25;
 
         // Create the sprite with Matter physics enabled
