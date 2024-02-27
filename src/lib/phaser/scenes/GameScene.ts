@@ -8,7 +8,7 @@ export default class GameScene extends Phaser.Scene {
     }
 
     create() {
-        console.log('hello world');
+        console.log('hello world'); // todo:: remove me
         this.updateNumSpawns(get(logoCount));
         logoCount.subscribe((count) => {
             this.updateNumSpawns(count);
