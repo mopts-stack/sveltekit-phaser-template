@@ -1,4 +1,4 @@
-# create-svelte
+# create-svelte ([example game here](https://github.com/knavels/sveltekit-phaser-crossing-road-game))
 
 ## Creating a project
 
