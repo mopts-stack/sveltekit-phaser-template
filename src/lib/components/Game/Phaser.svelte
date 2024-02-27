@@ -17,12 +17,8 @@
 	});
 </script>
 
-<div class="fixed top-0 left-0">
+<div>
 	<canvas bind:this={gameContainer} width={window.innerWidth} height={window.innerHeight} />
 </div>
 
-<div class="fixed top-0 left-0 pointer-events-none touch-none">
-	<div class="h-screen w-screen">
-		<Hud />
-	</div>
-</div>
+<Hud />
