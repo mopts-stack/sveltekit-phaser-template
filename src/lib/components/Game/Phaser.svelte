@@ -14,7 +14,7 @@
 </script>
 
 <div>
-	<canvas bind:this={gameContainer} width={window.innerWidth} height={window.innerHeight} />
+	<canvas bind:this={gameContainer} />
 </div>
 
 <Hud />
