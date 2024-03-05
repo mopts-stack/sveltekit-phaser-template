@@ -3,6 +3,7 @@
 ## Examples
 - [Crossing Road](https://github.com/knavels/sveltekit-phaser-crossing-road-game)
 - [Virtual Pet](https://github.com/knavels/phaser-sveltekit-virtual-pet-game)
+- [Mario Style Game](https://github.com/knavels/sveltekit-phaser-mario-style-game)
 
 ## Creating a project
 
