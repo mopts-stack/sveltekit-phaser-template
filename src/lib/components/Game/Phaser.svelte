@@ -10,10 +10,6 @@
 	onMount(async () => {
 		config.canvas = gameContainer;
 		const game = new Phaser.Game(config);
-
-		window.addEventListener('resize', () => {
-			game.scale.resize(window.innerWidth, window.innerHeight);
-		});
 	});
 </script>
 
