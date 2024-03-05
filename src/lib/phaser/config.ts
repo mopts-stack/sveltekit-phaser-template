@@ -11,8 +11,8 @@ export const gameConfig = {
 
 export const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.WEBGL,
-    width: window.innerWidth < gameConfig.width ? gameConfig.width : window.innerWidth,
-    height: window.innerHeight < gameConfig.height ? gameConfig.height : window.innerHeight,
+    width: gameConfig.width,
+    height: gameConfig.height,
     title: 'My Game',
     physics: {
         default: 'matter',
