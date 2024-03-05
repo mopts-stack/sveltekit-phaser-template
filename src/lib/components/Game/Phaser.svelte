@@ -24,7 +24,6 @@
 	<canvas bind:this={gameContainer} />
 </div>
 
-
 <style>
 	.container {
 		position: relative;
