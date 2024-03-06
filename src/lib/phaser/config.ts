@@ -27,6 +27,7 @@ export const config: Phaser.Types.Core.GameConfig = {
         }
     },
     pixelArt: true,
+    roundPixels: true,
     transparent: true,
     scale: {
         mode: Phaser.Scale.NONE
