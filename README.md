@@ -39,10 +39,10 @@ You can preview the production build with `npm run preview`.
 
 ## changes
 
-modified version of: [setltzerfish template](https://github.com/seltzerfish/phaser-svelte-template)
+it is inspired by [setltzerfish template](https://github.com/seltzerfish/phaser-svelte-template) but more and more I think I need to make more changes and it is an on-goiing process.
 
 - updated phaser and sveltekit versions
 - some folder structure tweaks
-- removed any styles to let developer decide what's best for them
+- removed any styles and use bare-bone CSS to let developer decide what's best for them
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
