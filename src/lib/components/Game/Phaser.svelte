@@ -1,15 +1,21 @@
 <script lang="ts">
 	import Phaser from 'phaser';
 
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	import Hud from './Hud.svelte';
 	import { config } from '$lib/phaser';
 
 	let gameContainer: HTMLCanvasElement;
 
+	let game: Phaser.Game;
+
 	onMount(async () => {
 		config.canvas = gameContainer;
-		const game = new Phaser.Game(config);
+		game = new Phaser.Game(config);
+	});
+
+	onDestroy(async () => {
+		game.destroy(false, false);
 	});
 </script>
 
