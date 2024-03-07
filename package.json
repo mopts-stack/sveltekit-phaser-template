@@ -27,6 +27,6 @@
 	"type": "module",
 	"dependencies": {
 		"@vercel/analytics": "^1.2.2",
-		"phaser": "^3.80.0"
+		"phaser": "^3.80.1"
 	}
 }
